@@ -14,8 +14,8 @@ dpkg -i filebeat-7.15.0-amd64.deb
 apt-get install git
 git clone https://USERNAME:PASSWORD/PERSONALACCESSTOKEN@github.com/PRIVATE_GITHUB_REPO_FOR_CONFIG_FILES.git
 #copy files to the config locations
-cp /home/baxtmann/ElasticConf/filebeat.yml /etc/filebeat/filebeat.yml
-cp /home/baxtmann/ElasticConf/metricbeat.yml /etc/metricbeat/metricbeat.yml
+cp /home/USERNAME/ElasticConf/filebeat.yml /etc/filebeat/filebeat.yml
+cp /home/USERNAME/ElasticConf/metricbeat.yml /etc/metricbeat/metricbeat.yml
 
 #if apache is installed
 
